@@ -5,7 +5,7 @@ pipeline {
         stage('Git Clone or Pull'){
             
             steps {
-                git 'https://github.com/asquarezone/spring-petclinic.git'
+                git 'https://github.com/UdayTadka/app_spring-petclinic.git'
             }
         }
         
