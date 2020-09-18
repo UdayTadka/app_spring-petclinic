@@ -3,5 +3,3 @@
 this is change
 this is new change
 
-
-this is minor change
