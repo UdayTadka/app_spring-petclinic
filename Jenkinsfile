@@ -23,10 +23,10 @@ pipeline {
                 
                // sh 'mvn sonar:sonar -Dsonar.projectKey=Spring-petclinic -Dsonar.host.url=http://20.57.123.154:9000 -Dsonar.login=9dcc7accbe6d3e26f47a5d2c3656978e2ff669e7'
                 sh '''
-                    mvn sonar:sonar \
-                       -Dsonar.projectKey=spring-petclinic \
-                       -Dsonar.host.url=http://spring-petclinic.eastus2.cloudapp.azure.com:9000 \
-                       -Dsonar.login=0ee7c459de80370a0f011bd1e28ba5c9f6bc3857 '''
+                      mvn sonar:sonar \
+                         -Dsonar.projectKey=spring-petclinic \
+                         -Dsonar.host.url=http://spring-petclinic.eastus2.cloudapp.azure.com:9000 \
+                         -Dsonar.login=b5e2de9806aacfcf2800fdf52b8b41d574ca2cdb'''
             }
         }
 
